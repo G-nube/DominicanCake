@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>DDC: Divine Domnican Cakes</title>
+		<title>BNice Dominican Cakes</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -11,7 +11,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1>DDC: Divine Dominican Cakes</h1>
+				<h1>BNice Dominican Cakes</h1>
 				<nav>
 					<ul>
 						<li><a href="#intro">Intro</a></li>
@@ -27,7 +27,7 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-						<h2>Welcome, come get some Divine Dominican Cake!</h2>
+						<h2>Welcome, come get some DIVINE Dominican Cake!</h2>
 					</header>
 					<p></p>
 					<footer>
@@ -127,7 +127,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy;2022 Gresham Fedora</li></li>
+						<p>© <span id="current-year"></span>BNice Dominican Cakes</p>
 					</ul>
 
 			</footer>
@@ -141,7 +141,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+						<script>
+  					document.getElementById("current-year").textContent = 
+					new Date().getFullYear();
+			</script>
 	</body>
 </html>
 <!--
